@@ -1,6 +1,27 @@
 # Changelog
 
-### 29.4.0 [#1196](https://github.com/openfisca/openfisca-france/pull/1196)
+## 29.5.0 [#1216](https://github.com/openfisca/openfisca-france/pull/1216)
+
+* Amélioration technique.
+* Périodes concernées : toutes.
+* Zones impactées:
+  - `mesures.py`
+  - `prelevements_obligatoires\impot_revenu\ir`
+  - `prelevements_obligatoires\isf`
+  - `prestations\aides_logement`
+  - `prestations\prestations_familiales\base_ressource`
+  - `prestations\minima_sociaux\ass`
+  - `prestations\minima_sociaux\ppa`
+  - `prestations\minima_sociaux\rsa`
+  - `revenus\capital\foncier`
+* Idée : on rend les variables de revenus fonciers plus explicites, et on redéfinit les inputs variables de ces revenus afin d'avoir une définition claire de ces variables, et de ne pas avoir de redondance entre les variables.
+* Détails :
+  - Renomme la variable `fon` par `revenus_fonciers_nets_abattement_microfoncier`
+  - Enlève la formule qui était mise dans `f4ba`
+  - Définit `revenus_locatifs` via les cases de la déclaration fiscale
+  - Renomme la variable `revenus_locatifs` par `revenus_fonciers_nets_abattement_microfoncier_individu_mensuel`
+
+## 29.4.0 [#1196](https://github.com/openfisca/openfisca-france/pull/1196)
 
 * Évolution du système socio-fiscal.
 * Périodes concernées : toutes.

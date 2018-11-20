@@ -16,7 +16,7 @@ individus:
   id: 54bfd9a1715c97ca720ca785
   inapte_travail: 0
   handicap: 0
-  revenus_locatifs:
+  revenus_fonciers_nets_abattement_microfoncier_individu_mensuel:
     2013: 0
     2014-01: 0
     2014-02: 0

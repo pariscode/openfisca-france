@@ -194,7 +194,7 @@
         2017-07: 0
         2017-06: 0
         2017-05: 0
-      revenus_locatifs:
+      revenus_fonciers_nets_abattement_microfoncier_individu_mensuel:
         2018-04: 135
       epargne_revenus_non_imposables:
         2018-04: 198
@@ -463,7 +463,7 @@
         2017-07: 0
         2017-06: 0
         2017-05: 0
-      revenus_locatifs:
+      revenus_fonciers_nets_abattement_microfoncier_individu_mensuel:
         2018-04: 1200
       revenus_capital:
         2018-04: 236

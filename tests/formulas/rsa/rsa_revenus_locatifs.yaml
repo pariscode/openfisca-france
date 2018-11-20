@@ -7,7 +7,7 @@
   individus:
     - id: "parent1"
       age: 40
-      revenus_locatifs:
+      revenus_fonciers_nets_abattement_microfoncier_individu_mensuel:
         2011-10: 12000 / 12
         2011-11: 12000 / 12
         2011-12: 12000 / 12
